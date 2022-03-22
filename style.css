@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 62.5%;
+    background-image: url('table.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 10rem;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 5rem;
+    color: goldenrod;
+    margin-bottom: 5rem;
+}
+
+p {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+#message-el {
+    font-style: italic;
+    font-size: 1.8rem;
+}
+
+button {
+    margin-top: 1rem;
+    color: #016f32;
+    padding: 1rem 2rem;
+    background: goldenrod;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: .2rem;
+    width: 20%;
+    cursor: pointer;
+}
+
+.cards-btn {
+    margin:0;
+}
